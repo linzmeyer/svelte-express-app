@@ -29,11 +29,11 @@ app.get('/api/v1/launches', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.send("<h1>About Page</h1>")
+  res.sendFile(path.resolve(__dirname, 'public', 'about.html'));
 });
 
 app.get('/contact', (req, res) => {
-  res.send("<h1>Contact Page</h1>")
+  res.sendFile(path.resolve(__dirname, 'public', 'contact.html'));
 });
 
 
