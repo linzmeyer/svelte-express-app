@@ -28,6 +28,12 @@ async function fetchRockets(e) {
 		No launches to show yet
 	{/if}
 </div>
+
+<div>
+	<a href="/about">Link to a About View.</a>
+	<a href="/contact">Link to a Contact View.</a>
+	<a href="/test">Link to a Test View.</a>
+</div>
 </main>
 
 <style>
