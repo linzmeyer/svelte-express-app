@@ -28,6 +28,14 @@ app.get('/api/v1/launches', (req, res) => {
 
 });
 
+app.get('/about', (req, res) => {
+  res.send("<h1>About Page</h1>")
+});
+
+app.get('/contact', (req, res) => {
+  res.send("<h1>Contact Page</h1>")
+});
+
 
 app.use(express.static('public'));
 app.get('*', (req, res) => {
