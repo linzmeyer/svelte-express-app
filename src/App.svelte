@@ -31,9 +31,14 @@ async function fetchRockets(e) {
 
 <div>
 	<a href="/about">Link to a About View.</a>
+</div>
+<div>
 	<a href="/contact">Link to a Contact View.</a>
+</div>
+<div>
 	<a href="/test">Link to a Test View.</a>
 </div>
+
 </main>
 
 <style>
