@@ -31,7 +31,7 @@ app.get('/app3/api/v1/launches', (req, res) => {
 
 
 app.use(express.static('public'));
-app.get('/app3/main', (req, res) => {
+app.get('/app3/*', (req, res) => {
   console.log("in main route");
   console.log("req.url:", req.url);
   console.log("sending file:", path.resolve(__dirname, 'public', 'index.html'));
